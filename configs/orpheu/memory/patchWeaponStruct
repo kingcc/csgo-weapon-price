@@ -1,0 +1,40 @@
+[
+    {
+        "name"        : "cost",
+        "library"     : "mod",
+        "type"        : "long",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 0
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 0
+            }
+        ]
+    },
+    {
+        "name"        : "weaponStruct",
+        "library"     : "mod",
+        "type"        : "long",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : [0x01,0x00,0x00,0x00,"*","*",0x00,0x00,"*","*",0x00,0x00,0x0D,0x00,0x00,0x00,0x0D,0x00,0x00,0x00,0x34,0x00,0x00,0x00,0x09]
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : [0x01,0x00,0x00,0x00,"*","*",0x00,0x00,"*","*",0x00,0x00,0x0D,0x00,0x00,0x00,0x0D,0x00,0x00,0x00,0x34,0x00,0x00,0x00,0x09]
+            }
+        ]
+    }
+]

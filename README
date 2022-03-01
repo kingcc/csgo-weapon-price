@@ -1,0 +1,13 @@
+AMX Mod X - CS:GO Weapon Prices
+===============================
+
+This plugin is dedicated to changing the weapons prices of CS1.6 to CS:GO.
+
+## Install
+
+Follow the AMX Mod X plugin specification:
+
+    0. Install lastet version of AMX Mod X;
+    1. Move all files to 'amxmodx/' dir;
+    2. Append 'price.amxx' to plugins.ini;
+    3. Enjoy;
