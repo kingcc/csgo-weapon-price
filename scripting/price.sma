@@ -56,7 +56,7 @@ new const prices[] = {
 
 public plugin_init ()
 {
-    register_plugin( "CS:GO Weapon Price", "1.0.0", "kingcc" )
+    register_plugin("CS:GO Weapon Price", "1.0.0", "kingcc")
 
     for (new i = 0; i < sizeof prices; i++)
     {
@@ -70,7 +70,7 @@ modify_price (const weapon_index, const type, const value)
 {
     if (!max(0, value)) return
 
-    #define get_offset(%0,%1) (WeaponStructure * (%0 - 1) + %1)
+    #define get_offset(%0, %1) (WeaponStructure * (%0 - 1) + %1)
 
     new point
     OrpheuMemoryGet("weaponStruct", point)
